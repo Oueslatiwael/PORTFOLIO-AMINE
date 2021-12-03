@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: white;
+  /*background-image: url(./images/vintage.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
+}
+
+.waw {
+  color: black;
+  position: fixed;
+  left: 50%;
+  top: 3%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: Voyage;
+  cursor: pointer;
+  z-index: 1;
+}
+.smill {
+  font-size: 17px;
+  font-family: mono;
+  top: 87%;
+  cursor: pointer;
+}
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.bott {
+  color: black;
+  position: fixed;
+  left: 50%;
+  top: 97%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: Voyage;
+  cursor: pointer;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 12%;
+  margin-left: 12%;
+  margin-top: 130px;
+  font-family: mono;
+  color: black;
+  cursor: pointer;
+}
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: whitesmoke;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+li:hover {
+  text-decoration: line-through;
+}
+/*.waw:hover ~ .cursor {
+  transform: scale(3);
+}
+
+.bott:hover ~ .cursor {
+  transform: scale(3);
+}
+.smill:hover ~ .cursor {
+  transform: scale(3);
+} */
+.main:hover ~ .cursor {
+  transform: scale(3);
+}
+.nav:hover ~ .cursor {
+  transform: scale(3);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.mainRight {
+  position: absrolute;
+  justify-content: center;
+
+  margin-top: 100px;
+  width: 33.3%;
+  display: grid;
+  float: right;
+  column-gap: 200px;
+  row-gap: 150px;
+}
+.mainMiddle {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 33.3%;
+  display: grid;
+  column-gap: 200px;
+  row-gap: 150px;
+  float: left;
+}
+.mainLeft {
+  position: absolute;
+  justify-content: center;
+  margin-top: 100px;
+  width: 33.3%;
+  display: grid;
+  column-gap: 200px;
+  row-gap: 150px;
+  float: left;
+}

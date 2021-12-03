@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: black;
+  /*background-image: url(./images/vintage.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;*/
+}
+.wiw {
+  color: whitesmoke;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: Voyage;
+  cursor: pointer;
+}
+.small {
+  font-size: 17px;
+  font-family: mono;
+  margin-bottom: -10px;
+}
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
